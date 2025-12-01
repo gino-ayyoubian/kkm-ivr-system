@@ -1,0 +1,98 @@
+# 📦 KKM IVR System - Python Dependencies
+# بسته وابستگی‌های Python برای سیستم IVR
+
+# ====================
+# Text-to-Speech APIs
+# ====================
+
+# ElevenLabs - بهترین کیفیت صوت فارسی
+elevenlabs>=1.0.0
+
+# Google Cloud TTS - مقیاس‌پذیر و حرفه‌ای
+google-cloud-texttospeech>=2.14.0
+
+# Azure Cognitive Services
+azure-cognitiveservices-speech>=1.31.0
+
+# AWS Polly
+boto3>=1.28.0
+
+# ====================
+# Audio Processing
+# ====================
+
+# FFmpeg wrapper for audio conversion
+pydub>=0.25.1
+
+# Audio analysis and validation
+librosa>=0.10.0
+soundfile>=0.12.1
+
+# ====================
+# API & Web
+# ====================
+
+# HTTP requests
+requests>=2.31.0
+
+# Environment variables management
+python-dotenv>=1.0.0
+
+# Progress bars
+tqdm>=4.66.0
+
+# ====================
+# Data Processing
+# ====================
+
+# CSV and data handling
+pandas>=2.0.0
+
+# JSON schema validation
+jsonschema>=4.19.0
+
+# ====================
+# Utilities
+# ====================
+
+# Logging and debugging
+loguru>=0.7.0
+
+# Date and time utilities
+python-dateutil>=2.8.2
+
+# File path manipulation
+pathlib2>=2.3.7; python_version < '3.4'
+
+# ====================
+# Testing & Quality
+# ====================
+
+# Unit testing framework
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Code quality
+black>=23.7.0
+flake8>=6.1.0
+mypy>=1.5.0
+
+# ====================
+# Documentation
+# ====================
+
+# Markdown processing
+markdown>=3.4.4
+
+# ====================
+# Optional Dependencies
+# ====================
+
+# Webhook integration
+flask>=2.3.0  # برای تست webhook
+
+# Database (optional for call logs)
+sqlite3  # Built-in to Python
+
+# Monitoring
+sentry-sdk>=1.32.0  # اختیاری
